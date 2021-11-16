@@ -197,7 +197,7 @@ function GameStart()
       checkColumnForThree()
       moveIntoSquareBelow()
 
-      if (score >= 300){
+      if (score >= 200){
         title.classList.add('hide')
         scoreDisplay.classList.add('hide')
         timerDisplay.classList.add('hide')
