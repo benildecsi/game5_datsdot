@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAME 5: Dats Dot</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" charset="utf-8"></script>
+    <script defer src="animation.js"></script>
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+  </head>
+  <body>
+    <section class="parallax" id="parallax">
+      <div src="ASSETS/title-img.png" class="title-text stroke-text" id="title-img">benildean students' day</div>
+      <div src="ASSETS/title-img.png" class="game-title stroke-text" id="title-img">game 5 </br> dats dot</div>
+      <button class="start-btn layer" id="start-button" onclick="GameStart()"> START </button>
+    </section>
+
+    <div class="container" id="container">
+      <div src="ASSETS/title-img.png" class="game-heading stroke-text" id="title-img">game 5 - dats dot</div>
+      <image src="ASSETS/pass-msg.png" id="pass-msg" class="msg hide"></image>
+      <image src="ASSETS/fail-msg.png" id="fail-msg" class="msg hide"></image>
+      <button class="menu-btn btn hide" id="menu-btn" onclick="window.location.href='https://interaktiv.benilde.edu.ph/?page_id=4171';">BACK TO MENU</button>
+      <div class="score" id="score">SCORE: 0</div>
+      <div class="timer" id="timer">TIMER: 0</div>
+      <br>
+      <div class="grid"></div>
+    </div>
+  </body>
+</html>
